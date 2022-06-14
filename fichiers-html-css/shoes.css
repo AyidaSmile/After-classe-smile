@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "poppins";
+    src: url(/Poppins-Bold.ttf);
+}
+body{
+    background-color: #171717;
+    font-family: 'poppins';
+}
+.shoes-container{
+    overflow: hidden;
+    position: relative;
+    margin-top: 50px;
+    text-align: center;
+    border-radius: 14px;
+    border: 1px solid black;
+    max-width: 240px;
+    height: 340px;
+    background-color:#2f3328 ;
+    margin: auto;
+}
+div img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.round-circle{
+   background-color: #9feb35;
+    position: absolute;
+    border-radius: 50%;
+    width: 440px;
+    height: 305px;
+    bottom: 179px;
+    left: -10px;
+}
+.back-writing {
+    color: #9ad92a;
+    left: -66px;
+    top:100px;
+    font-weight: bold;
+    font-size: 145px;
+    position: absolute;
+    translate: 2% 0%;
+    opacity: 0.1;
+}
+.nike-shoes{
+    font-family: "poppins";
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: white;
+}
+.size-button{
+    width:  140px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+.size{
+    margin-right: 10px;
+    color: white;
+}
+.carre button{
+    border-radius: 3px;
+    border: none;
+    font-size: 16px;
+    background-color: #fdfdfd;
+}
+.color-cercle{
+    display: flex;
+   justify-content: center;
+    margin: auto;
+    margin-right: 12px;
+    margin-top: 4px;
+    margin-bottom: 6px;
+}
+.color{
+    margin-top: 10px;
+    margin-right: -1px;
+    color: white;
+    font-size: 14px;
+    
+  
+}
+.green-circle{
+    background-color: #95d83a;
+    width: 15px;
+    margin-left: 15px;
+    margin-top: 14px;
+    height: 15px;
+    border-radius: 50%;
+}
+.blue-circle{
+    background-color: #1eacd4;
+    width: 15px;
+    margin-left: 5px;
+    height: 15px;
+    margin-top: 14px;
+    border-radius: 50%;
+}
+.pink-circle{
+    margin-top: 14px;
+    margin-left: 5px;
+    width: 15px;
+    background-color: #c3175c;
+    border-radius: 50%;
+    height: 15px
+}
+.button button{
+background-color: white;
+border: none;
+font-weight: bold;
+border-radius: 2px;
+padding: 10px 15px;
+  
+}
